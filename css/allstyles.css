@@ -1,0 +1,49 @@
+#SideBar {
+    overflow: hidden; 
+    width: 5%; 
+    height: 100%; 
+    float: left; 
+    background-color:rgb(39, 39, 39) ; 
+    transition-duration: 1s; 
+}
+
+#textBar {
+    height: 50px;  
+    font-family: sans-serif;
+    display: block;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#closeSideBar {
+    float: right; 
+    opacity: 0; 
+    height: 50px; 
+    border-radius: 0px 0px 0px 30px;
+}
+
+#SideBar:hover {
+    background-color:rgb(44, 44, 44) ;
+}
+
+#textBar:hover {
+    background-color:rgb(44, 44, 44) ;
+}
+
+#closeSideBar:hover {
+    background-color:rgb(44, 44, 44) ;
+    border-radius: 0px 0px 0px 30px;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+}
